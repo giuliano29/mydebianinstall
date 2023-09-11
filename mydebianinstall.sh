@@ -12,7 +12,7 @@ sudo apt install firefox firefox-l10n-pt-br keepassxc\
      galculator parole htop neofetch git powerline gufw
 
 # INSTALL ICEWM     
-sudo apt install icewm lxappearance
+sudo apt install icewm lxappearance feh picom
 
 # XFCE ALTERNATIVES THEMES
 sudo apt install paper-icon-theme moka-icon-theme papirus-icon-theme     
