@@ -43,6 +43,9 @@ cd ~/.config/geany/colorschemes/
 wget 	https://raw.github.com/geany/geany-themes/master/colorschemes/bespin.conf https://raw.github.com/geany/geany-themes/master/colorschemes/cyber-sugar.conf\
         https://raw.github.com/geany/geany-themes/master/colorschemes/darcula.conf https://raw.github.com/geany/geany-themes/master/colorschemes/dark.conf 
 
+# INSTALL QT THEME APPS
+sudo apt install qt5ct adwaita-qt
+
     
     
  
