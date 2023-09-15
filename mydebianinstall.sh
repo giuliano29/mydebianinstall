@@ -5,7 +5,8 @@ sudo apt install libxfce4ui-utils thunar\
      xfce4-appfinder xfce4-panel xfce4-session\
      xfce4-settings xfce4-terminal xfconf\
      xfdesktop4  xfwm4 xfce4-goodies\
-     network-manager-gnome network-manager-openvpn-gnome
+     network-manager-gnome network-manager-openvpn-gnome\
+     powerline ufw
 
 #PROGRAMAS PADRÃO
 sudo apt install firefox-esr firefox-l10n-pt-br keepassxc\
@@ -49,7 +50,7 @@ wget 	https://raw.github.com/geany/geany-themes/master/colorschemes/bespin.conf 
 sudo apt install qt5ct adwaita-qt
 
 # INSTALL STEAM
-sudo apt install steam
+sudo apt install steam locales-all at-spi2-core pkexec
 
     
     
