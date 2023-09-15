@@ -6,7 +6,7 @@ sudo apt install libxfce4ui-utils thunar\
      xfce4-settings xfce4-terminal xfconf\
      xfdesktop4  xfwm4 xfce4-goodies\
      network-manager-gnome network-manager-openvpn-gnome\
-     powerline ufw
+     powerline xfce4-pulseaudio-plugin
 
 #PROGRAMAS PADRÃO
 sudo apt install firefox-esr firefox-l10n-pt-br keepassxc\
