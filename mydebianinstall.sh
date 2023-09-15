@@ -39,10 +39,10 @@ sudo apt install flatpak
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
 # INSTALL GEANY THEMES
-mkdir ~/.config/geany/colorschemes/
+mkdir ~/.config/geany && mkdir ~/.config/geany/colorschemes
 cd ~/.config/geany/colorschemes/
 wget 	https://raw.github.com/geany/geany-themes/master/colorschemes/bespin.conf https://raw.github.com/geany/geany-themes/master/colorschemes/cyber-sugar.conf\
-        https://raw.github.com/geany/geany-themes/master/colorschemes/darcula.conf https://raw.github.com/geany/geany-themes/master/colorschemes/dark.conf 
+       https://raw.github.com/geany/geany-themes/master/colorschemes/darcula.conf https://raw.github.com/geany/geany-themes/master/colorschemes/dark.conf 
 
 
 # INSTALL ICEWM     
