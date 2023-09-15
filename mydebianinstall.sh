@@ -1,5 +1,6 @@
 #!/bin/bash
 #==============#
+#MY DEBIAN SID INSTALL
 
 # AMD Graphics
 sudo apt install firmware-amd-graphics libgl1-mesa-dri libglx-mesa0\
