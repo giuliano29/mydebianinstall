@@ -28,10 +28,10 @@ sudo dpkg --add-architecture i386 && sudo apt update
 sudo apt install libglx-mesa0:i386 mesa-vulkan-drivers:i386 libgl1-mesa-dri:i386
 
 # Install Phoenix-Firestorm Viewer
-cd ~/ 
-wget https://downloads.firestormviewer.org/linux/Phoenix-Firestorm-Releasex64-6-6-14-69596.tar.xz
 sudo apt install libidn12:i386 libstdc++6:i386 gstreamer1.0-pulseaudio:i386 libuuid1:i386
 sudo ln -s /usr/lib/i386-linux-gnu/libidn.so.12 /usr/lib/i386-linux-gnu/libidn.so.11
+cd ~/ 
+wget https://downloads.firestormviewer.org/linux/Phoenix-Firestorm-Releasex64-6-6-14-69596.tar.xz
 tar xvf Phoenix-Firestorm-Releasex64-6-6-14-69596.tar.xz && cd Phoenix-Firestorm-Releasex64-6-6-14-69596
 ./install.sh
 cd ~/ && rm -rf Phoenix-Firestorm-Releasex64-6-6-14-69596/ Phoenix-Firestorm-Releasex64-6-6-14-69596.tar.xz
