@@ -9,10 +9,10 @@ sudo apt install libxfce4ui-utils thunar\
 #PROGRAMAS PADRÃO
 sudo apt install firefox firefox-l10n-pt-br keepassxc\
      atril ristretto gimp geany geany-plugins\
-     galculator parole htop neofetch git powerline gufw
+     galculator parole htop  git powerline gufw flameshot
 
 # INSTALL ICEWM     
-sudo apt install icewm lxappearance feh picom volumeicon-alsa
+#sudo apt install icewm lxappearance feh picom volumeicon-alsa
 
 # XFCE ALTERNATIVES THEMES
 sudo apt install paper-icon-theme moka-icon-theme papirus-icon-theme     
@@ -45,6 +45,9 @@ wget 	https://raw.github.com/geany/geany-themes/master/colorschemes/bespin.conf 
 
 # INSTALL QT THEME APPS
 sudo apt install qt5ct adwaita-qt
+
+# INSTALL STEAM
+sudo apt install steam
 
     
     
