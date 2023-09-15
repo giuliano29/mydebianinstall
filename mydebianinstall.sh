@@ -4,7 +4,8 @@
 sudo apt install libxfce4ui-utils thunar\
      xfce4-appfinder xfce4-panel xfce4-session\
      xfce4-settings xfce4-terminal xfconf\
-     xfdesktop4  xfwm4 xfce4-goodies
+     xfdesktop4  xfwm4 xfce4-goodies\
+     network-manager-gnome network-manager-openvpn-gnome
 
 #PROGRAMAS PADRÃO
 sudo apt install firefox firefox-l10n-pt-br keepassxc\
@@ -39,6 +40,7 @@ sudo apt install flatpak
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
 # INSTALL GEANY THEMES
+mkdir ~/.config/geany/colorschemes/
 cd ~/.config/geany/colorschemes/
 wget 	https://raw.github.com/geany/geany-themes/master/colorschemes/bespin.conf https://raw.github.com/geany/geany-themes/master/colorschemes/cyber-sugar.conf\
         https://raw.github.com/geany/geany-themes/master/colorschemes/darcula.conf https://raw.github.com/geany/geany-themes/master/colorschemes/dark.conf 
