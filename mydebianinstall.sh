@@ -8,7 +8,7 @@ sudo apt install libxfce4ui-utils thunar\
      network-manager-gnome network-manager-openvpn-gnome
 
 #PROGRAMAS PADRÃO
-sudo apt install firefox firefox-l10n-pt-br keepassxc\
+sudo apt install firefox-esr firefox-l10n-pt-br keepassxc\
      atril ristretto gimp geany geany-plugins\
      galculator parole htop  git powerline gufw flameshot
 
