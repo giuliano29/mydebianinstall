@@ -1,23 +1,5 @@
 #!/bin/bash
 #==============#
-#BASE XFCE4
-sudo apt install libxfce4ui-utils thunar\
-     xfce4-appfinder xfce4-panel xfce4-session\
-     xfce4-settings xfce4-terminal xfconf\
-     xfdesktop4  xfwm4 xfce4-goodies\
-     network-manager-gnome network-manager-openvpn-gnome\
-     powerline xfce4-pulseaudio-plugin
-
-#PROGRAMAS PADRÃO
-sudo apt install firefox-esr firefox-l10n-pt-br keepassxc\
-     atril ristretto gimp geany geany-plugins\
-     galculator parole htop  git powerline gufw flameshot
-
-# INSTALL ICEWM     
-#sudo apt install icewm lxappearance feh picom volumeicon-alsa
-
-# XFCE ALTERNATIVES THEMES
-sudo apt install paper-icon-theme moka-icon-theme papirus-icon-theme     
 
 # AMD Graphics
 sudo apt install firmware-amd-graphics libgl1-mesa-dri libglx-mesa0\
@@ -26,6 +8,21 @@ sudo apt install firmware-amd-graphics libgl1-mesa-dri libglx-mesa0\
 # AMD Graphics 32bits support
 sudo dpkg --add-architecture i386 && sudo apt update
 sudo apt install libglx-mesa0:i386 mesa-vulkan-drivers:i386 libgl1-mesa-dri:i386
+
+#INSTALL XFCE4 + PROGRAMS + THEMES
+sudo apt install libxfce4ui-utils thunar\
+     xfce4-appfinder xfce4-panel xfce4-session\
+     xfce4-settings xfce4-terminal xfconf\
+     xfdesktop4  xfwm4 xfce4-goodies\
+     network-manager-gnome network-manager-openvpn-gnome\
+     powerline xfce4-pulseaudio-plugin\
+     firefox-esr  keepassxc gimp geany geany-plugins\
+     atril ristretto  galculator parole htop  git powerline gufw flameshot\
+     paper-icon-theme moka-icon-theme papirus-icon-theme\
+     qt5ct adwaita-qt
+     
+# INSTALL STEAM
+sudo apt install steam locales-all at-spi2-core pkexec
 
 # Install Phoenix-Firestorm Viewer
 sudo apt install libidn12:i386 libstdc++6:i386 gstreamer1.0-pulseaudio:i386 libuuid1:i386
@@ -46,11 +43,9 @@ cd ~/.config/geany/colorschemes/
 wget 	https://raw.github.com/geany/geany-themes/master/colorschemes/bespin.conf https://raw.github.com/geany/geany-themes/master/colorschemes/cyber-sugar.conf\
         https://raw.github.com/geany/geany-themes/master/colorschemes/darcula.conf https://raw.github.com/geany/geany-themes/master/colorschemes/dark.conf 
 
-# INSTALL QT THEME APPS
-sudo apt install qt5ct adwaita-qt
 
-# INSTALL STEAM
-sudo apt install steam locales-all at-spi2-core pkexec
+# INSTALL ICEWM     
+#sudo apt install icewm lxappearance feh picom volumeicon-alsa
 
     
     
