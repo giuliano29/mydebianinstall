@@ -4,7 +4,7 @@
 
 # AMD Graphics
 sudo apt install firmware-amd-graphics libgl1-mesa-dri libglx-mesa0\
-	 mesa-vulkan-drivers xserver-xorg-video-all 
+	 mesa-vulkan-drivers xserver-xorg-video-all libglu1-mesa
 
 # AMD Graphics 32bits support
 sudo dpkg --add-architecture i386 && sudo apt update
